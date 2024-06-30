@@ -36,6 +36,12 @@ body {
 }
 
 /* Navbar */
+
+.sidebar {
+  background-color: #0e0a2f7e;
+  backdrop-filter: blur(7px);
+}
+
 nav {
   background-color: var(--nav-bg);
 }
