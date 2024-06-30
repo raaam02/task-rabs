@@ -1,0 +1,73 @@
+:root {
+  --orange: #f68e46;
+  --purple: #7343f5;
+  --white: #fff;
+  --nav-bg: #111111a2;
+  --dark: #111;
+  --bg-dark: #0e0a2f;
+}
+* {
+  color: var(--white);
+}
+body {
+  background-color: var(--bg-dark);
+  letter-spacing: 1px;
+}
+
+/* Load Animation */
+.load-animation {
+  animation: load-animation 1s;
+}
+
+@keyframes load-animation {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/* Navbar */
+nav {
+  background-color: var(--nav-bg);
+}
+
+.nav-link {
+  color: var(--white);
+  text-transform: uppercase;
+  margin: 1px 10px;
+  font-weight: 500;
+  font-size: medium;
+}
+.nav-link:hover {
+  color: var(--orange);
+  transform: scale(90%);
+  transition: all ease-in-out 0.1s;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: large;
+  background-color: var(--purple);
+  transition: all ease-in-out 0.2s;
+}
+.btn:hover {
+  background-color: var(--orange);
+}
+
+/* Carousel */
+#Carousel {
+  max-height: 700px;
+  overflow: hidden;
+}
+#Carousel img {
+  object-fit: cover;
+}
+
+/* Property */
+#property {
+  background-size: contain;
+}
