@@ -39,11 +39,11 @@ body {
 
 .sidebar {
   background-color: #0e0a2f7e;
-  backdrop-filter: blur(7px);
 }
 
 nav {
   background-color: var(--nav-bg);
+  backdrop-filter: blur(7px);
 }
 
 .nav-link {
@@ -110,4 +110,18 @@ footer .foot-link {
 footer .foot-link:hover {
   color: var(--orange);
   text-decoration: underline;
+}
+
+/* Whatsapp */
+.whatsapp {
+  background-color: var(--purple);
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.whatsapp a {
+  margin: 5px;
+  text-align: center;
 }
