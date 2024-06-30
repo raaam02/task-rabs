@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         
             // Email content
             $mail->isHTML(true);
-            $mail->Subject = 'Thank You for Contacting Us, ' . $name . '! 🌟';
+            $mail->Subject = 'Thank You for Contacting Us, ' . $name;
             $mail->Body    = '<!DOCTYPE html>
             <html lang="en">
             <head>
@@ -78,7 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             
 
 
-        header("location: ../Thankyou.html");
+        header("location: Thankyou.html");
     }catch (Exception $e) {
         echo 'Failed to send email: ', $mail->ErrorInfo;
     }
