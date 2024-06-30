@@ -125,3 +125,28 @@ footer .foot-link:hover {
   margin: 5px;
   text-align: center;
 }
+
+/* Modal */
+
+.modal-content {
+  background-color: var(--lite-purple);
+  backdrop-filter: blur(10px);
+}
+
+.form-control {
+  background-color: #e8e7f8;
+}
+.form-control:focus {
+  border: 1px solid var(--orange);
+}
+
+.submit-btn {
+  background-color: var(--orange);
+  color: var(--white);
+  letter-spacing: 1px;
+}
+.submit-btn:hover {
+  background-color: #d37f43;
+  color: var(--white);
+  letter-spacing: 1px;
+}
