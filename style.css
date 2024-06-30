@@ -74,6 +74,13 @@ nav {
   background-color: var(--nav-bg);
 }
 
-#property {
-  background-size: contain;
+#property .row div {
+  overflow: hidden;
+}
+#property img {
+  object-fit: cover;
+  transition: all ease-in-out 1s;
+}
+#property img:hover {
+  transform: scale(1.1);
 }
