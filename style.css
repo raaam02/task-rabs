@@ -64,10 +64,16 @@ nav {
   overflow: hidden;
 }
 #Carousel img {
+  max-height: 700px;
   object-fit: cover;
 }
 
 /* Property */
+
+.heading {
+  background-color: var(--nav-bg);
+}
+
 #property {
   background-size: contain;
 }
